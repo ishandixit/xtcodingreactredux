@@ -56,7 +56,7 @@ class SkuListing extends React.Component {
     const data1 = data2.map((item, index) => {
       item.upVote = (
         <button type="button" onClick={(e) => { e.preventDefault(); this.handleClickUpvote(e,item, index)}}>
-          Icon
+          <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
         </button>
       );
       return item;
