@@ -1,0 +1,79 @@
+.userlist{
+.add-user-modal{
+    width: 62% !important;
+    top:5% !important;
+    border-radius: 10px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #15383c9e 51%, #226e8ac4 75%);
+  .modal-head{
+      position: sticky;
+      background: #d3d3d34d;
+      top: 0;
+      padding: 5px;
+      padding-left: 38px;
+      display: flex;
+      z-index: 1;
+      color: #000000;
+  }
+  .modal-content{
+    padding-top: 0px;
+    .row{
+        margin-bottom: 0px;
+        .input-field{
+            margin-bottom: 0px;
+            label{
+              color: #ffffff;
+            }
+            .active{
+              color: #ffffff;
+            }
+          }
+    }
+    select{
+      height: 2rem;
+    }
+    input[type=text],input[type=email],input[type=number],input[type=password]:not(.browser-default){
+      border-bottom: 1px solid #fff;
+    }
+    
+  }
+}
+.authmodal{
+    width: 62% !important;
+    top:5% !important;
+    border-radius: 10px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #15383c9e 51%, #226e8ac4 75%);
+  .modal-head{
+      position: sticky;
+      background: #d3d3d34d;
+      top: 0;
+      padding: 5px;
+      z-index: 1;
+      color: #000000;
+      .row
+      {margin-bottom: 0px;}
+  }
+  .modal-content{
+    padding-top: 0px;
+    .row{
+        margin-bottom: 0px;
+        .input-field{
+            margin-bottom: 0px;
+            label{
+              color: #ffffff;
+            }
+            .active{
+              color: #ffffff;
+            }
+          }
+    }
+    select{
+      height: 2rem;
+    }
+    input[type=text],input[type=email],input[type=number],input[type=password]:not(.browser-default){
+      border-bottom: 1px solid #fff;
+    }
+    
+  }
+}
+
+}

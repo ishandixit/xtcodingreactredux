@@ -1,0 +1,189 @@
+$primary: #545eb8;
+.user-view {
+    position: relative;
+    padding: 0 18px 0;
+
+    & > a {
+      &:hover { background-color: transparent; }
+      height: auto;
+      padding: 0;
+    }
+
+    .background {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .circle, .name, .email {
+      display: block;
+    }
+
+    .circle {
+      height: 64px;
+      width: 64px;
+    }
+
+    .name,
+    .email {
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .name {
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    .email {
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+  }
+nav {
+    background-color: white;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    .brand-logo {
+        padding: 10px;
+        height: 40px;
+        img {
+            height: 39px;
+            width: 100px;
+        }
+    }
+    .nav-wrapper {
+        ul{
+            width: 60%;
+            li{
+                display: inline;
+            }
+        }
+        .grey-text{
+            color: #6c6c6c;
+            font-weight: bold;
+        }
+        input[type=search] {
+            width: 200px;
+            padding-left: 20px;
+            border-radius: 25px;
+            border: none;
+            background-color: #f7f8fa;
+        }
+        .fa-search {
+            position: relative;
+            right: 30px;
+        }
+        input[type=search]:not(.browser-default):focus:not([readonly]) {
+            border: none;
+            box-shadow: none;
+        }
+        color: #676e7a;
+        a {
+            color: $primary;
+        }
+        i {
+            height: 40px !important;
+            line-height: 40px !important;
+        }
+        .right {
+            li {
+                .fa-bell-o {
+                    font-size: 28px;
+                }
+                padding: 0;
+                .dropdown-content {
+                    li {
+                        min-height: 36px;
+                        padding: 0px;
+                        a {
+                            color: #676767;
+                            font-size: 14px;
+                            line-height: 18px;
+                            padding: 10px;
+                        }
+                    }
+                }
+                .name-n-position {
+                    padding-top: 10px;
+                    text-align: right;
+                    line-height: 21px;
+                }
+                .name {
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .position {
+                    font-size: 14px;
+                }
+                &.profile-pic {
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                    }
+                }
+                .dropdown-button {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+}
+
+.customSideNav{
+ background:#3b3884;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+
+li > a{
+    color: #fff;
+    .fa{
+        margin-right: 0px;
+        color: #fff;
+    }
+
+}
+}
+.logo-background{
+background: #003366;
+}
+.sidenav .collapsible-body, .sidenav.fixed .collapsible-body,.collapsible-header{
+    background: transparent;
+    color: white;
+}
+
+.collapsible{
+    padding-left:8px !important;   
+    li{
+     a{
+        text-decoration: none;
+        color:white;
+     }
+    }
+    .collapsible-body{ 
+        padding-left: 20px;
+    }
+}
+
+.collapsible-header >a{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px;
+    >i{
+        font-size: 1rem;
+        margin-right: 0px;
+     }
+}

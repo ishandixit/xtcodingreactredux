@@ -1,0 +1,127 @@
+.inwarding{
+  .row{
+    margin-bottom: 0px;
+  }
+  .input-field{
+    margin-bottom: 0px;
+  }
+.grn{
+    color:red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.inscan-top-form{
+  width: 95%;
+  margin:0 auto;
+  margin-top: 30px;
+  background: white;
+  i.material-icons {
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    cursor: pointer;
+}
+.input-field{
+  label{
+    top:-8px;
+  }
+}
+select{
+  height: 2rem;
+}
+input[type=text]:not(.browser-default){
+  height: 2rem;
+}
+}
+.modal1{
+    width: 62% !important;
+    top:5% !important;
+    border-radius: 10px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #15383c9e 51%, #226e8ac4 75%);
+  .modal-head{
+      position: sticky;
+      background: #d3d3d34d;
+      top: 0;
+      padding: 5px;
+      padding-left: 38px;
+      display: flex;
+      z-index: 1;
+      color: #000000;
+  }
+  .modal-content{
+    padding-top: 0px;
+    select{
+      height: 2rem;
+    }
+    span{
+      color: #fff;
+      font-size: .88rem;
+
+    }
+    input[type=text]:not(.browser-default){
+      height: 2rem;
+      font-size: 14px;
+      border-bottom: 1px solid #fff;
+    }
+    .invalid{
+      border-bottom: 1px solid red !important;
+    }
+    .input-field{
+      label{
+        color: #ffffff;
+      }
+      .active{
+        color: #ffffff;
+      }
+    }
+    .modal{
+      width: 60% !important;
+    }
+  }
+}
+.includeSku{
+  width: 62% !important;
+  top:5% !important;
+  border-radius: 10px;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #15383c9e 51%, #226e8ac4 75%);
+.modal-head{
+    position: sticky;
+    background: #d3d3d34d;
+    top: 0;
+    padding: 5px;
+    padding-left: 38px;
+    display: flex;
+    z-index: 1;
+    color: #000000;
+}
+.modal-content{
+  padding-top: 0px;
+ 
+  span{
+    color: #fff;
+    font-size: .88rem;
+
+  }
+  input[type=text]:not(.browser-default){
+    height: 2.4rem;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+  }
+  .invalid{
+    border-bottom: 1px solid red !important;
+  }
+  .input-field{
+    label{
+      color: #ffffff;
+    }
+    .active{
+      color: #ffffff;
+    }
+  }
+}
+}
+
+}
